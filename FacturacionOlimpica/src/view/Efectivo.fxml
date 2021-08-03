@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-6.0" prefHeight="541.0" prefWidth="650.0">
+         <children>
+            <Label layoutX="269.0" layoutY="39.0" text="EFECTIVO" />
+            <TextField fx:id="Monto" layoutX="33.0" layoutY="101.0" promptText="Monto" />
+            <TextField fx:id="TipodeMoneda" layoutX="227.0" layoutY="101.0" promptText="Tipo de Moneda" />
+            <TextField fx:id="Fecha" layoutX="444.0" layoutY="101.0" promptText="Fecha" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
